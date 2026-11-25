@@ -2,7 +2,7 @@
 
 📌 About the Project
 
-TeamSync AI is an AI-powered, full-stack project and task management platform designed to simplify teamwork and improve productivity. It provides a centralized workspace where teams can create projects, assign tasks, manage deadlines, track progress, and collaborate in real time.
+# TeamSync AI is an AI-powered, full-stack project and task management platform designed to simplify teamwork and improve productivity. It provides a centralized workspace where teams can create projects, assign tasks, manage deadlines, track progress, and collaborate in real time.
 
 The platform combines traditional project management features with AI-powered assistance to reduce manual planning and make team coordination more efficient. Its AI assistant helps generate task breakdowns and summarizes project progress, allowing users to plan and manage their work more effectively.
 
@@ -37,14 +37,15 @@ TeamSync AI is designed especially for student project teams, college clubs, and
 | Git & GitHub | Version control and collaboration |
 | Postman | API testing |
 
-📁 Project Folder Structure
 
+## 📂 Project Folder Structure
+
+```text
 TeamSync-AI/
 │
 ├── frontend/
 │   ├── public/
 │   │   └── assets/
-│   │
 │   ├── src/
 │   │   ├── assets/
 │   │   ├── components/
@@ -52,34 +53,29 @@ TeamSync-AI/
 │   │   │   ├── Sidebar.jsx
 │   │   │   ├── TaskCard.jsx
 │   │   │   └── KanbanBoard.jsx
-│   │   │
 │   │   ├── pages/
 │   │   │   ├── Login.jsx
 │   │   │   ├── Register.jsx
 │   │   │   ├── Dashboard.jsx
 │   │   │   ├── Projects.jsx
 │   │   │   └── Tasks.jsx
-│   │   │
 │   │   ├── context/
 │   │   ├── hooks/
 │   │   ├── services/
 │   │   │   └── api.js
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   │
 │   ├── package.json
 │   └── .env
 │
 ├── backend/
 │   ├── config/
 │   │   └── db.js
-│   │
 │   ├── controllers/
 │   │   ├── authController.js
 │   │   ├── projectController.js
 │   │   ├── taskController.js
 │   │   └── aiController.js
-│   │
 │   ├── models/
 │   │   ├── User.js
 │   │   ├── Workspace.js
@@ -87,30 +83,23 @@ TeamSync-AI/
 │   │   ├── Task.js
 │   │   ├── Comment.js
 │   │   └── Notification.js
-│   │
 │   ├── routes/
 │   │   ├── authRoutes.js
 │   │   ├── projectRoutes.js
 │   │   ├── taskRoutes.js
 │   │   └── aiRoutes.js
-│   │
 │   ├── middleware/
 │   │   ├── authMiddleware.js
 │   │   └── roleMiddleware.js
-│   │
 │   ├── services/
 │   │   ├── aiService.js
 │   │   └── notificationService.js
-│   │
 │   ├── socket/
 │   │   └── socket.js
-│   │
 │   ├── jobs/
 │   │   └── reminderJob.js
-│   │
 │   ├── utils/
 │   │   └── generateToken.js
-│   │
 │   ├── server.js
 │   ├── package.json
 │   └── .env
@@ -118,6 +107,8 @@ TeamSync-AI/
 ├── .gitignore
 ├── README.md
 └── package.json
+```
+
 
 
 ⚙️ How It Works
