@@ -37,6 +37,89 @@ TeamSync AI is designed especially for student project teams, college clubs, and
 | Git & GitHub | Version control and collaboration |
 | Postman | API testing |
 
+📁 Project Folder Structure
+
+TeamSync-AI/
+│
+├── frontend/
+│   ├── public/
+│   │   └── assets/
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── TaskCard.jsx
+│   │   │   └── KanbanBoard.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   └── Tasks.jsx
+│   │   │
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── .env
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── projectController.js
+│   │   ├── taskController.js
+│   │   └── aiController.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Workspace.js
+│   │   ├── Project.js
+│   │   ├── Task.js
+│   │   ├── Comment.js
+│   │   └── Notification.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── projectRoutes.js
+│   │   ├── taskRoutes.js
+│   │   └── aiRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── roleMiddleware.js
+│   │
+│   ├── services/
+│   │   ├── aiService.js
+│   │   └── notificationService.js
+│   │
+│   ├── socket/
+│   │   └── socket.js
+│   │
+│   ├── jobs/
+│   │   └── reminderJob.js
+│   │
+│   ├── utils/
+│   │   └── generateToken.js
+│   │
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── .gitignore
+├── README.md
+└── package.json
+
+
 ⚙️ How It Works
 
 1. Users register or log in to the platform.
