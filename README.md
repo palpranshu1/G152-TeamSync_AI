@@ -2,7 +2,7 @@
 
 📌 About the Project
 
-# TeamSync AI is an AI-powered, full-stack project and task management platform designed to simplify teamwork and improve productivity. It provides a centralized workspace where teams can create projects, assign tasks, manage deadlines, track progress, and collaborate in real time.
+TeamSync AI is an AI-powered, full-stack project and task management platform designed to simplify teamwork and improve productivity. It provides a centralized workspace where teams can create projects, assign tasks, manage deadlines, track progress, and collaborate in real time.
 
 The platform combines traditional project management features with AI-powered assistance to reduce manual planning and make team coordination more efficient. Its AI assistant helps generate task breakdowns and summarizes project progress, allowing users to plan and manage their work more effectively.
 
